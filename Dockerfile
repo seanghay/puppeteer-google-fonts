@@ -4,7 +4,7 @@ USER root
 
 WORKDIR /root/
 
-RUN wget https://github.com/google/fonts/archive/main.tar.gz -O gf.tar.gz
+RUN wget -q https://github.com/google/fonts/archive/main.tar.gz -O gf.tar.gz
 
 RUN tar -xf gf.tar.gz
 
